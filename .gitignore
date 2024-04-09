@@ -3,7 +3,7 @@ node_modules/
 docs/.vuepress/dist/
 docs/.vuepress/.temp/
 docs/.vuepress/.cache/
-docs/.vuepress/styles/
+# docs/.vuepress/styles/
 
 # IDE / Editors
 .vscode/
