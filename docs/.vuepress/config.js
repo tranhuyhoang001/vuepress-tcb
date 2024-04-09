@@ -4,8 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite';
 import { searchPlugin } from '@vuepress/plugin-search';
 
 export default defineUserConfig({
+  base: 'vuepress-tcb',
   lang: 'vi-VN',
-
   title: 'TCB x IC',
   description: 'Kịch bản CSKH Techcombank',
   search: true,
