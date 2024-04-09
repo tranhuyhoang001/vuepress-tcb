@@ -3,13 +3,16 @@ import { defineUserConfig } from 'vuepress/cli';
 import { viteBundler } from '@vuepress/bundler-vite';
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'vi-VN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'TCB x IC',
+  description: 'Kịch bản CSKH Techcombank',
+  search: true,
+  searchMaxSuggestions: 10,
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/logo-techcombank-1.png',
+    logoDark: '/images/logo-techcombank-3.png',
     // sidebar: {
     //   '/topic/': [
     //     {
