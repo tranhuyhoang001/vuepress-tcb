@@ -7,9 +7,7 @@ export default defineUserConfig({
   base: 'vuepress-tcb',
   lang: 'vi-VN',
   title: 'TCB x IC',
-  description: 'Kịch bản CSKH Techcombank',
-  search: true,
-  searchMaxSuggestions: 10,
+  description: 'TECHCOMBANK WIKI FAQ SOCIALCARE',
 
   theme: defaultTheme({
     logo: '/images/logo-techcombank-1.png',
