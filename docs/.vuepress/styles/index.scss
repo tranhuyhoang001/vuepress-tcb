@@ -1,3 +1,17 @@
+.home .hero img {
+  height: 100% !important;
+}
+
+.home .search-box {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.home .search-box input {
+  width: 40% !important;
+}
+
 :root {
   // brand colors
   --c-brand: #ed1b24;
@@ -193,7 +207,7 @@ body {
 
 html.dark {
   // brand colors
-  --c-brand: #ed1b24;
+  --c-brand: #ff4136;
   --c-brand-light: #ec232e;
 
   // background colors

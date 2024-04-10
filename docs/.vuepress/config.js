@@ -52,6 +52,10 @@ export default defineUserConfig({
       },
     ],
     contributors: false,
+    docsRepo: 'https://github.com/tranhuyhoang001/vuepress-tcb',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    editLinkPattern: ':repo/edit/:branch/:path',
   }),
   plugins: [
     searchPlugin({

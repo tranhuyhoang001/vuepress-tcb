@@ -5,13 +5,11 @@ heroImage: /images/logo-techcombank-4.png
 heroImageDark: /images/logo-techcombank-6.png
 # actions:
 #   - text: Get Started
-#     link: /getting-started.html
+#     link: /topic/bo-quy-tac.html
 #     type: primary
-
 #   - text: Introduction
-#     link: https://vuejs.press/guide/introduction.html
+#     link: https://techcombank.com/
 #     type: secondary
-
 # features:
 #   - title: Simplicity First
 #     details: Minimal setup with markdown-centered project structure helps you focus on writing.
@@ -33,4 +31,4 @@ heroImageDark: /images/logo-techcombank-6.png
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page -->
 
-<!-- <SearchBox style="width: 100%" /> -->
+<SearchBox />
